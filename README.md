@@ -1,7 +1,7 @@
 # put_tello_selfie
 DJI Tello selfie "stick" is the project about creating drone following the person in some distance. It can be used for recording purposes by professional performers and streamers. We based our idea in using ArUco Tags. We couldn't stress the idea better than picturing this like below.
 
-![alt text](https://github.com/filesmuggler/put_tello_selfie/blob/main/docs/idea.jpg")
+![alt text](https://github.com/filesmuggler/put_tello_selfie/blob/main/docs/idea.jpg)
 
 Simplified solution can be found in this repository and you can feel free to modify anyway you want.
 
