@@ -19,6 +19,8 @@ pip install djitellopy opencv-python
 ```bash
 python3 main.py
 ```
+Program is prepared to detect all tags but assumes naively that their size is equal to 5cm per side. Results can be seen bellow.
+![alt text](https://github.com/filesmuggler/put_tello_selfie/blob/main/docs/tags.jpg)
 
 ## Known Issues
 As fas as we are proud to create such a fun project, we have to admit, that we still miss some things:
@@ -36,4 +38,5 @@ We tried implementing the algorithm with ROS framework but for some undiscovered
 - OpenCV library (https://opencv.org/)
 - ArUco detection using OpenCv (https://docs.opencv.org/3.2.0/d5/dae/tutorial_aruco_detection.html)
 - ROS library for DJI Tello (http://wiki.ros.org/tello_driver)
+- DJI TelloPy library (https://djitellopy.readthedocs.io/en/latest/)
 
