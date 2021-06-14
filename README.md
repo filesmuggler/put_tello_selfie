@@ -27,5 +27,9 @@ As fas as we are proud to create such a fun project, we have to admit, that we s
 We tried implementing the algorithm with ROS framework but for some undiscovered reason it appeared too laggy for aruco detection.
 
 ## References
-
+- Python documentation (https://docs.python.org/3/)
+- ArUco generator (https://chev.me/arucogen/)
+- OpenCV library (https://opencv.org/)
+- Arudo detection using OpenCv (https://docs.opencv.org/3.2.0/d5/dae/tutorial_aruco_detection.html)
+- 
 
