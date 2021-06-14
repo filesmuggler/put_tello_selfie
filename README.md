@@ -6,15 +6,19 @@ DJI Tello selfie "stick" is the project about creating drone following the perso
 Simplified solution can be found in this repository and you can feel free to modify anyway you want.
 
 ## Installation
-We recommend using Python 3 for the project
+We recommend using Python 3 for the project.
 Make sure you are using virtual environment in python so to keep your system interpreter intact.
 The short tutorial how to do this is published in the documentation [here](https://docs.python.org/3/library/venv.html)
-Install pytello and opencv library.
+To run the project please install djitellopy and opencv library.
 
 ```bash
-pip install pytello opencv-python
+pip install djitellopy opencv-python
 ```
 ## Run
+
+```bash
+python3 main.py
+```
 
 ## Known Issues
 As fas as we are proud to create such a fun project, we have to admit, that we still miss some things:
@@ -30,6 +34,6 @@ We tried implementing the algorithm with ROS framework but for some undiscovered
 - Python documentation (https://docs.python.org/3/)
 - ArUco generator (https://chev.me/arucogen/)
 - OpenCV library (https://opencv.org/)
-- Arudo detection using OpenCv (https://docs.opencv.org/3.2.0/d5/dae/tutorial_aruco_detection.html)
-- 
+- ArUco detection using OpenCv (https://docs.opencv.org/3.2.0/d5/dae/tutorial_aruco_detection.html)
+- ROS library for DJI Tello (http://wiki.ros.org/tello_driver)
 
