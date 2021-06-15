@@ -22,6 +22,9 @@ python3 main.py
 Program is prepared to detect all tags but assumes naively that their size is equal to 5cm per side. Results can be seen bellow.
 ![alt text](https://github.com/filesmuggler/put_tello_selfie/blob/main/docs/tags.jpg)
 
+Detected tag location can be visualized on the image as follows.
+![alt text](https://github.com/filesmuggler/put_tello_selfie/blob/main/docs/detect.png)
+
 ## Known Issues
 As fas as we are proud to create such a fun project, we have to admit, that we still miss some things:
 
