@@ -27,7 +27,8 @@ Detected tag location can be visualized on the image as follows.
 
 ## Control
 We are using PID controller for keeping a user given distance from the tag. 
-PID equation.
+PID equation.  
+
 ![alt text](https://github.com/filesmuggler/put_tello_selfie/blob/main/docs/pid.png)
 
 ## Known Issues
