@@ -25,6 +25,11 @@ Program is prepared to detect all tags but assumes naively that their size is eq
 Detected tag location can be visualized on the image as follows.
 ![alt text](https://github.com/filesmuggler/put_tello_selfie/blob/main/docs/detect.png)
 
+## Control
+We are using PID controller for keeping a user given distance from the tag. 
+PID equation.
+![alt text](https://github.com/filesmuggler/put_tello_selfie/blob/main/docs/pid.png)
+
 ## Known Issues
 As fas as we are proud to create such a fun project, we have to admit, that we still miss some things:
 
