@@ -15,6 +15,7 @@ arucoParams = cv2.aruco.DetectorParameters_create()
 drone = Tello()
 drone.connect()
 drone.takeoff()
+drone.move_down(20)
 drone.streamon()
 
 frame_read = drone.get_frame_read()
@@ -55,7 +56,8 @@ while diff < 60:
                                                                            distortion_coefficients)
                 tvec = np.squeeze(tvec)
                 s_1, s_2, s_3 = tracker(tvec[0], tvec[1], tvec[2], 0)
-                print(s_1,s_2,s_3)
+                #print(rvec)
+                #print(s_1,s_2,s_3)
                 drone.send_rc_control(s_1, s_3, s_2, 0)
                 #print(ids[i], "position:", tvec)
 
