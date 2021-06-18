@@ -31,14 +31,6 @@ PID equation.
 
 ![alt text](https://github.com/filesmuggler/put_tello_selfie/blob/main/docs/pid.png)
 
-## Known Issues
-As fas as we are proud to create such a fun project, we have to admit, that we still miss some things:
-
-- [x] Pytello installation and Drone connectivity test
-- [x] Retrieving image from camera and recording it
-- [x] Detecting Aruco Tags with proper distance estimation using OpenCV 
-- [ ] PID controller for keeping the distance
-
 We tried implementing the algorithm with ROS framework but for some undiscovered reason it appeared too laggy for aruco detection.
 
 ## References
