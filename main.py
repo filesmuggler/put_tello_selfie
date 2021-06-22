@@ -14,7 +14,7 @@ arucoParams = cv2.aruco.DetectorParameters_create()
 
 drone = Tello()
 drone.connect()
-drone.takeoff()
+drone.takeoff() 
 drone.move_down(20)
 drone.streamon()
 
